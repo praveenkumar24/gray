@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  width: 400px;
+
+  .column {
+    max-width: 20%;
+    flex: 0 0 400px;
+  }
+
+  input, canvas {
+    max-width: 100%;
+  }
+
+  canvas {
+    border: 1px solid #ccc;
+  }
+}
